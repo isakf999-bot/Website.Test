@@ -1,0 +1,84 @@
+
+.Head {
+  height:100vh;
+  background-image:url("/images/image 1.png");
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
+}
+
+.header_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.title {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 26px;
+    letter-spacing: 4.8px;
+    max-width: 342px;
+    width: 100%;
+    height: 26px;
+    color: #FFFFFF;
+}
+
+.header_text {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 22px;
+    font-weight: normal;
+    line-height: 26px;
+    letter-spacing: 6.82px;
+    max-width: 345px;
+    width: 100%;
+    height: 26px;
+    color: #FFFFFF;
+    margin-top: 10px;
+    text-align: center;
+}
+
+input {
+    margin-top: 50px;
+    width: 653px;
+    height: 63px;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 2.8px;
+    color: #999999;
+}
+
+.search_btn {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 26px;
+    letter-spacing: 1.4px;
+    color: #FFFFFF;
+    background-color: #5474FD;
+    width: 153px;
+    height: 63px;
+    border: none;
+    border-radius: 3px;
+}
+
+
+.scrolldown {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 26px;
+    line-height: 2.8px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 40px;
+}
+
+.fa-angle-down {
+    margin-top: 20px;
+}
