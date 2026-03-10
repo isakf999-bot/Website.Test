@@ -1,0 +1,40 @@
+.nav_container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: #5474FD;
+    height: 83px;
+    align-items: center;
+}
+
+ul, li, a {
+    text-decoration: none;
+    list-style: none;
+    color: #FFFFFF;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.navitem {
+    font-family: "Aleo", serif;
+    font-size: 14px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.navtitle {
+    font-family: "Josefin Sans", sans-serif;
+    color: #FFFFFF;
+    font-size: 24px;
+    line-height: 26px;
+    letter-spacing: 2.4px;
+    font-weight: bold;
+}
+
+.navlink:hover {
+    background-color: #6b84f1;
+}
